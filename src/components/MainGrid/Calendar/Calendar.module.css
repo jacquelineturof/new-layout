@@ -1,0 +1,5 @@
+.Container {
+    grid-row: 2 / 3;
+    grid-column: 1 / 5;
+    background-color: #252954;
+}
