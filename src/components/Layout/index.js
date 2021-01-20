@@ -8,10 +8,8 @@ import classes from './Layout.module.css'
 const Layout = ({ children }) => (
     <div className = { classes.Layout }>
         <SideMenu />
-        <div>
-            <NavBar />
-            { children }
-        </div>
+        <NavBar />
+        { children }
     </div>
 )
 
