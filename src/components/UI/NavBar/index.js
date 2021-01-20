@@ -4,9 +4,11 @@ import classes from './NavBar.module.css'
 
 const NavBar = () => {
     return (
-        <nav className = { classes.NavBar }>
+        <div className = { classes.NavBarContainer }>
+            <nav className = { classes.NavBar }>
 
-        </nav>
+            </nav>
+        </div>
     )
 }
 
