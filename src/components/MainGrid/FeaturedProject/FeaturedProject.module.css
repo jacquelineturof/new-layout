@@ -1,0 +1,6 @@
+.Container {
+    grid-row: 3 / 4;
+    grid-column: 1 / 7;
+    height: 100vh;
+    width: 100vw;
+}

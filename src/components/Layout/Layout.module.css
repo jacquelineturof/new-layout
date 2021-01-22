@@ -1,0 +1,10 @@
+.Layout {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0e0e23;
+
+    display: grid;
+    grid-template-columns: 10vw 1fr;
+    grid-template-rows: 10vh 90vh;
+    grid-row-gap: 30px;
+}
