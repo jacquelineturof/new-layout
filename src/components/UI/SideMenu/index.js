@@ -14,27 +14,27 @@ import classes from './SideMenu.module.css'
 const SideMenu = () => (
     <IconContext.Provider value = {{ className: classes.Icon }}>
         <ul className = { classes.Container }>
-            <li>
+            <li className = { classes.MenuItem }>
                 <NavLink to = "/">
                     <RiLayoutMasonryFill />
                 </NavLink>
             </li>
-            <li>
+            <li className = { classes.MenuItem }>
                 <NavLink to = "/">
                     <RiFileCodeFill/>
                 </NavLink>
             </li>
-            <li>
+            <li className = { classes.MenuItem }>
                 <NavLink to = "/">
                     <RiWechatFill />
                 </NavLink>
             </li>
-            <li>
+            <li className = { classes.MenuItem }>
                 <NavLink to = "/">
                     <RiBubbleChartLine />
                 </NavLink>
             </li>
-            <li>
+            <li className = { classes.MenuItem }>
                 <NavLink to = "/">
                     <RiLogoutCircleLine/>
                 </NavLink>

@@ -13,11 +13,11 @@
     top: 0;
 }
 
-li:first-child {
+.MenuItem:first-child {
     margin-top: 5rem;
 }
 
-li:last-child {
+.MenuItem:last-child {
     position: absolute;
     bottom: 5%;
 }

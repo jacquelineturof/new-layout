@@ -1,4 +1,11 @@
 .Heading {
     color: #ccc;
+}
+
+.Light {
     font-weight: 200;
+}
+
+.Bold {
+    font-weight: 700;
 }
